@@ -39,11 +39,11 @@ module.exports = {
         "server": "127.0.0.1", // Wallet server
         "user": "XXX", // Wallet username
         "password": "XXX", // Wallet password
-        "port": "1234", // Wallet port
+        "port": "17898", // Wallet port
         // TODO ENCRYPTION KEY FOR WALLET
-        "coinSymbol": "Coin (CoinSymbol)", // Coin name
-        "coinSymbolShort": "Symbol", // Coin name
-        "thumbnailIcon": "https://domain.link/image.png", // Thumbnail icon for all messages (need to get enabled first in code to work = not ready)
+        "coinSymbol": "JagoanCoin", // Coin name
+        "coinSymbolShort": "JGC", // Coin name
+        "thumbnailIcon": "https://jagoancoin.org/image.png", // Thumbnail icon for all messages (need to get enabled first in code to work = not ready)
         "check": true, // If enabled it checks (cron) for new transactions
         "credit": true, // If enabled it credits (cron) new transactions
         "depositsToCheck": 60, // How many latest deposits should be checked from the wallet
